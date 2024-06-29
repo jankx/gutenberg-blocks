@@ -1,0 +1,19 @@
+{
+    "name": "jankx/gutenberg-blocks",
+    "description": "The interface for Guntenberg blocks",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Jankx\\GutenbergBlocks\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Puleeno Nguyen",
+            "email": "puleeno@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {}
+}
