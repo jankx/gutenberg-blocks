@@ -18,7 +18,7 @@ interface BlockInterface
 
     public function isServerSideRender(): bool;
 
-    public function render();
+    public function render($data, $content);
 
     public function isEnabled(): bool;
 
